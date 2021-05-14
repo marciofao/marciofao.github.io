@@ -16,16 +16,17 @@ body {
 
 body {
     background-image: url(../img/fundosevenpaper.jpg);
+    background-size: cover;
 }
 
+
+}
 a {
     color: lightblue;
 }
-
 a:hover {
     color: white;
 }
-
 #content {
     min-height: 100%;
     width: 75%;
@@ -34,20 +35,18 @@ a:hover {
     text-align: center;
     color: white;
 }
-
 #nome {
     font-family: "Arial Black", Verdana, Calibri;
     font-size: 45px;
     font: bolder;
     padding-top: 45px;
 }
-
 #desc {
     font-family: Verdana, Calibri;
 }
-
 nav a {
     /*botoes*/
+    
     background: #A5ACF0;
     cursor: pointer;
     font-family: "Arial Black";
@@ -58,16 +57,13 @@ nav a {
     border-radius: 3px;
     transition: background-color 300ms;
 }
-
 nav a:hover {
     background: white;
     color: black;
 }
-
 #content img {
     height: 50px;
 }
-
 .langs {
     margin-top: -30px;
     font-size: 50px;
@@ -75,7 +71,6 @@ nav a:hover {
     color: white;
     text-align: center;
 }
-
 .det {
     width: 60%;
     border-radius: 10px;
@@ -83,39 +78,37 @@ nav a:hover {
     text-align: left;
     padding: 10px;
     /*margin-top: -10px;*/
+    
     margin: 0 auto;
     margin-top: 10px;
     /*display: none;*/
+    
     font-size: 15px;
     background-color: rgba(0, 0, 0, 0.7);
     font-family: verdana, arial
 }
-
 #content .det img {
     height: 20px;
 }
-
 #port h1,
 #con h1 {
     text-align: center;
     font-size: 20px;
     margin: 0;
 }
-
 #port h2 {
     margin: 1em 0 0;
     font-size: 14px;
 }
-
 .alert {
     display: inline;
     color: red;
 }
-
 @media only screen and (max-width: 700px) {
     #content {
         width: 100%;
     }
+    
     .det {
         width: 90%;
     }
