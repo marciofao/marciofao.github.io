@@ -92,20 +92,53 @@ nav a:hover {
 #port h1,
 #con h1 {
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
     margin: 0;
 }
 #port h2 {
     margin: 1em 0 0;
     font-size: 14px;
 }
-#port h2 a{
+#port h2 a, section h1 a{
     color: white;
+}
+#port h2 a:hover, section h1 a:hover {
+    color: rgb(182, 119, 4);
 }
 .alert {
     display: inline;
     color: red;
 }
+
+.BUTTON_SSM {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #000000;
+    font-family: Tahoma;
+    font-size: 40px;
+    font-weight: 100;
+    padding: 40px;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #FFFFFF 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .BUTTON_SSM:hover {
+    background: #FFAE00;
+    border: solid #FFAE00 1px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
 @media only screen and (max-width: 700px) {
     #content {
         width: 100%;
