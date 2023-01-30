@@ -102,7 +102,7 @@ nav a:hover {
 #port h2 a, section h1 a{
     color: white;
 }
-#port h2 a:hover, section h1 a:hover {
+#port h2 a:hover, .det a:hover {
     color: rgb(182, 119, 4);
 }
 .alert {
