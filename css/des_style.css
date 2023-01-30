@@ -100,6 +100,9 @@ nav a:hover {
     margin: 1em 0 0;
     font-size: 14px;
 }
+#port h2 a{
+    color: white;
+}
 .alert {
     display: inline;
     color: red;
