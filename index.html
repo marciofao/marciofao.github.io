@@ -1,161 +1,412 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-<head>
-    <script>
-        //window.location = "http://fb.me/mconsultst";
-    </script>
+  <head>
 
-    <title>Márcio Lopes Fão</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, maximum-scale=1.0" ,="" width="device-width/">
-    <!--[if lt IE 9]>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script>
-	<![endif]-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <link rel="stylesheet" href="css/des_style.css?v2.0" />
-    <script>
-        function exibe(id) {
-            document.getElementById('tip').style.display = 'none';
-            document.getElementById('con').style.display = 'none';
-            document.getElementById('port').style.display = 'none';
-            document.getElementById('play').style.display = 'none';
-            document.getElementById(id).style.display = 'block';
-        }
-    </script>
-</head>
+    <title>Márcio Fão</title>
 
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-<body>
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
-    <div id="content">
-        <div id="nome" tabindex="1">
-            Márcio Lopes Fão
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/freelancer.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+  
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Márcio Fão</a>
+        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portifolio</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Sobre</a>
+            </li>
+           <!--  <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contato</a>
+            </li> -->
+          </ul>
         </div>
-        <div id="desc" tabindex="2">
-            Desenvolvimento Web e Acessibilidade
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead bg-primary text-white text-center">
+      <div class="container">
+        <img class="img-fluid mb-5 d-block mx-auto" src="img/logo_marciofao.png" alt="Logotipo Marcio Fão Cubo verde com Letra M Seccionada no meio">
+        <h1 class="text-uppercase mb-0">Márcio Lopes Fão</h1>
+        <hr class="star-light">
+        <h2 class="font-weight-light mb-0">Desenvolvimento Web - Programação</h2>
+      </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0">Portifolio</h2>
+        <hr class="star-dark mb-5">
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/agenda.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/apophi.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/familiafao.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/creative.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/familiafao.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-6">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/neta.jpg" alt="">
+            </a>
+          </div>
         </div>
-        <br>
-        <span class="langs">{</span>
-        <img src="http://i.imgur.com/L7Kzfjf.png" alt="php">
-        <img src="http://familiafao.orgfree.com/imagens/java.png" alt="php">
-        <img src="http://familiafao.orgfree.com/imagens/wordpress.webp" alt="php">
-        <img src="http://i.imgur.com/pWQIbvS.png" alt="android">
-        <img src="http://i.imgur.com/Zw2ATF8.png" alt="javascript">
-        <img src="http://i.imgur.com/tQ7tuAU.png" alt="Mysql">
-        <img src="http://i.imgur.com/gAKk1rM.png" alt="Postgresql">
+      </div>
+    </section>
 
-        <span class="langs">}</span>
-        <br><br>
-        <a href="https://cubee3d.com/mobile/store/Creativers%203D" class="BUTTON_SSM">Imprimir 3D</a>
-        <br><br>
-
-        <section class="det" id="port" tabindex="4">
-            <h1>Projetos e Trabalhos</h1>
-
-            <h2>
-                <a href="http://unucg.org.br" target="_blank" rel="nofollow">União Nacional de Usuários de Cães-Guia</a>
-            </h2>
-            Site institucional com acessibilidade, sistema de cadastro de associados
-            <h2>
-                <a href="http://ucergs.org.br" target="_blank" rel="nofollow">União dos cegos do Rio Grande do Sul</a>
-            </h2>
-            Site institucional, sistema de cadastro de associados
-            <h2>
-                <a href="http://creativers.com.br" target="_blank" rel="nofollow">Creativers</a>
-            </h2>
-            Site de loja, e-commerce
-            <h2>
-                <a href="http://louisbraille.org.br" target="_blank" rel="nofollow">Portal Louis Braille</a>
-            </h2>
-            Site institucional com acessibilidade, sistema de gerenciamento interno
-            <h2>
-                <a href="http://familiafao.orgfree.com/m2studios/outras/apophi" target="_blank" rel="nofollow">Alpha Phi Omega</a>
-            </h2>
-            Adaptação de Front-end responsivo
-
-            <h2>
-                <a href="http://neta.ufpel.edu.br" target="_blank" rel="nofollow">Site do Neta</a>
-            </h2>
-            Codificação front-end, Acessibilidade
-
-            <h2>
-                <a href="http://familiafao.orgfree.com/m2studios/content/outras/tenispolar/" target="_blank" rel="nofollow">Conversor Tenis-Polar</a>
-            </h2>
-            Encriptador de texto e sms para android - java, js e php;
-
-            <h2>
-                <a href="http://familiafao.orgfree.com" target="_blank" rel="nofollow">Família Fão</a>
-            </h2>
-            <div class="alert"> </div>
-            Front-end responsivo, primeiros trabalhos.
-
-            <h2>
-                <a href="http://familiafao.orgfree.com/m2studios/outras/agenda_melhorenvio/" target="_blank" rel="nofollow">Sistema Simples de Agenda</a>
-            </h2>
-            Bootsrap, PHP, MySQL;
-            <h2>
-                <a href="http://familiafao.orgfree.com/m2studios/outras/CSSpractise/nunberg-tigers/" target="_blank" rel="nofollow">Nurnberg Ice Tigers</a>
-            </h2>
-            PSD/arte para HTML e CSS;
-            <h2>
-                <a href="http://familiafao.orgfree.com/m2studios/outras/CSSpractise/starbucks5/" target="_blank" rel="nofollow">Menu de Cafeteria</a>
-            </h2>
-            Página responsiva
-
-
-
-        </section>
-        <section class="det" id="con" tabindex="6">
-            <a href="mailto:marcio.lopes.fao@gmail.com">
-                <h1>Contato</h1>
-            </a>
-            <a href="http://gg.gg/marciocv">
-                <h1>CV/Resume</h1>
-            </a>
-            <!-- 
-  		<span>
-        <a href="mailto:marcio.lopes.fao@gmail.com">
-          <img border="0" src="imagens/mail.gif" alt="ícone email">
-          
-        </a>
-      </span>
-      <span>
-        <a href="http://facebook.com/mconsultst" target="_blank" rel="nofollow">
-          <img border="0" src="imagens/fcbok.gif" alt="ícone facebook">
-          
-        </a> 
-      </span>
-      <span>
+    <!-- About Section -->
+    <section class="bg-primary text-white mb-0" id="about">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-white">Sobre</h2>
+        <hr class="star-light mb-5">
+        <div class="row">
+          <div class="col-lg-4 ml-auto">
+            <p class="lead">Desenvolvedor web freelancer full-stack com experiência no ensino de tecnologias assistiva. Acredito que com as tecnologias das informações podemos aperfeiçoar o ambiente em que vivemos e expadir as capacidades humanas.</p>
+          </div>
+          <div class="col-lg-4 mr-auto">
+            <p class="lead">Como filosofia acredito na sensibilidade e no detalhamento estético. A arte é um componente essencial na vida das pessoas, como hobby gosto de compor fotografias estilizadas no meu <a href="http://instagram.com/marciofao">instagram</a>.</p>
+          </div>
+        </div>
         
-        <a href="http://github.com/marciofao" target="_blank" rel="nofollow">
-          <img border="0" src="imagens/github.png" alt="ícone Github">
-          
-        </a>
-      </span>
-  			
-  		-->
+      </div>
+    </section>
 
+    <!-- Contact Section -->
+   <!--  <section id="contact">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0">Entre em Contato</h2>
+        <hr class="star-dark mb-5">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+          <!--  
+            <form name="sentMessage" id="contactForm" novalidate="novalidate">
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                  <label>Nome</label>
+                  <input class="form-control" id="name" type="text" placeholder="Nome" required="required" data-validation-required-message="Por favor, insira seu nome.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                  <label>Endereço de Email</label>
+                  <input class="form-control" id="email" type="email" placeholder="Endereço de Email" required="required" data-validation-required-message="Por favor insira seu email.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                  <label>Telefone</label>
+                  <input class="form-control" id="phone" type="tel" placeholder="Telefone/Whats" required="required" data-validation-required-message="Por favor insira seu telefone.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                  <label>Mensagem</label>
+                  <textarea class="form-control" id="message" rows="5" placeholder="Mensagem" required="required" data-validation-required-message="Please enter a message."></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <br>
+              <div id="success"></div>
+              <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>  -->
 
+    <!-- Footer -->
+    <footer class="footer text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-5 mb-lg-0">
+              <!-- coluna vazia -->
+          </div>
+          <div class="col-md-4 mb-5 mb-lg-0">
+            <h4 class="text-uppercase mb-4">Redes Sociais</h4>
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="http://fb.me/marciofao">
+                  <i class="fa fa-fw fa-facebook"></i>
+                </a>
+              </li>
+              <!--
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                  <a href=""><i class="fa fa-fw fa-google-plus"></i></a>
+                </a>
+              </li>
+              -->
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="http://twitter.com/marciofao">
+                  <i class="fa fa-fw fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.linkedin.com/in/m%C3%A1rcio-lopes-f%C3%A3o-bb559133/">
+                  <i class="fa fa-fw fa-linkedin"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="http://instagram.com/macro.marciofao">
+                  <i class="fa fa-fw fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 mb-5 mb-lg-0">
+              <!-- coluna vazia -->
+          </div>
+        </div>
+      </div>
+    </footer>
 
-
-        </section>
-
+    <div class="copyright py-4 text-center text-white">
+      <div class="container">
+        <small>Márcio Fão <script>document.write(new Date().getFullYear())</script></small>
+      </div>
     </div>
 
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-to-top d-lg-none position-fixed ">
+      <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+      </a>
+    </div>
 
+    <!-- Portfolio Modals -->
 
-    <script src="/googleAnalytics.js"></script>
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/portfolio/cabin.png" alt="">
+              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <style>
-        .hide {
-            display: none;
-        }
-    </style>
-    <iframe class="hide" src="http://familiafao.orgfree.com/test.php" frameborder="0"></iframe>
-    <iframe class="hide" src="http://m2studios.orgfree.com/test.php" frameborder="0"></iframe>
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/portfolio/cake.png" alt="">
+              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/portfolio/circus.png" alt="">
+              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-</body>
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/portfolio/game.png" alt="">
+              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-5">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/portfolio/safe.png" alt="">
+              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-6">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <hr class="star-dark mb-5">
+              <img class="img-fluid mb-5" src="img/portfolio/submarine.png" alt="">
+              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/freelancer.min.js"></script>
+
+  </body>
 
 </html>
