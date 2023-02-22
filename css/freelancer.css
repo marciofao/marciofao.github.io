@@ -12,6 +12,11 @@ h6 {
   font-family: 'Montserrat';
 }
 
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
 hr.star-light,
 hr.star-dark {
   max-width: 15rem;
@@ -118,7 +123,8 @@ section h2 {
   color: #18BC9C;
 }
 
-#mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
+#mainNav .navbar-nav li.nav-item a.nav-link:active,
+#mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
 }
 
@@ -139,27 +145,35 @@ section h2 {
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
   }
+
   #mainNav .navbar-brand {
     font-size: 2em;
     -webkit-transition: font-size 0.3s;
     -moz-transition: font-size 0.3s;
     transition: font-size 0.3s;
   }
+
   #mainNav .navbar-nav {
     margin-top: 0;
   }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+
+  #mainNav .navbar-nav>li.nav-item>a.nav-link.active {
     color: #fff;
     background: #18BC9C;
   }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+
+  #mainNav .navbar-nav>li.nav-item>a.nav-link.active:active,
+  #mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus,
+  #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
     color: #fff;
     background: #18BC9C;
   }
+
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
   }
+
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.5em;
   }
@@ -180,7 +194,7 @@ header.masthead h2 {
   font-family: 'Lato';
 }
 
-header div img{
+header div img {
   width: 35%;
 }
 
@@ -189,10 +203,12 @@ header div img{
     padding-top: calc(6rem + 106px);
     padding-bottom: 6rem;
   }
+
   header.masthead h1 {
     font-size: 4.75em;
     line-height: 4rem;
   }
+
   header.masthead h2 {
     font-size: 1.75em;
   }
@@ -229,6 +245,7 @@ header div img{
   .portfolio {
     margin-bottom: -30px;
   }
+
   .portfolio .portfolio-item {
     margin-bottom: 30px;
   }
@@ -265,6 +282,7 @@ header div img{
     padding: 5rem;
     margin: 3rem calc(3rem - 8px);
   }
+
   .portfolio-modal .portfolio-modal-dialog h2 {
     font-size: 3rem;
   }
@@ -339,8 +357,10 @@ a {
   color: #18BC9C;
 }
 
-a:focus, a:hover, a:active {
-  color: #0add4f ;
+a:focus,
+a:hover,
+a:active {
+  color: #0add4f;
 }
 
 .btn {
@@ -368,7 +388,9 @@ a:focus, a:hover, a:active {
   border-color: #64ce62;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
   background-color: #4da14b;
   border-color: #4da14b;
 }
@@ -378,16 +400,42 @@ a:focus, a:hover, a:active {
   border-color: #2C3E50;
 }
 
-.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active {
   background-color: #1a252f;
   border-color: #1a252f;
 }
 
-a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-primary:hover {
+a.bg-primary:focus,
+a.bg-primary:hover,
+button.bg-primary:focus,
+button.bg-primary:hover {
 
-    background-color: #4da14b !important;
+  background-color: #4da14b !important;
 
 }
-button.bg-primary{
-  background-color: #64ce62  !important;
+
+button.bg-primary {
+  background-color: #64ce62 !important;
+}
+
+.portfolio .portfolio-item {
+  max-height: 159px;
+  overflow: hidden;
+}
+
+.navbar-shrink {
+  background-color: rgba(0, 0, 0, 0) !important;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.profile-pic {
+  max-height: 222px;
+  border-radius: 50%;
+  margin-bottom: 31px;
+}
+
+.vh-100{
+  height: calc(100vh) !important;
 }
