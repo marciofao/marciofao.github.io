@@ -437,5 +437,5 @@ button.bg-primary {
 }
 
 .vh-100{
-  height: calc(100vh) !important;
+  min-height: calc(100vh) !important;
 }
