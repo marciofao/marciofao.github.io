@@ -60,6 +60,7 @@
     e.preventDefault();
     $.magnificPopup.close();
   });
+  
 
   // Floating label headings for the contact form
   $(function() {

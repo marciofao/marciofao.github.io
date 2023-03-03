@@ -439,3 +439,23 @@ button.bg-primary {
 .vh-100{
   min-height: calc(100vh) !important;
 }
+
+
+.btn-outline-secondary{
+  color: #18BC9C;
+  border-color: #18BC9C;
+}
+
+.btn-outline-secondary:hover {
+  color: #fff;
+  background-color: #18BC9C;
+  border-color: #18BC9C;
+}
+
+.footer{
+  background-color: #1e9244;
+}
+
+.copyright{
+  background-color: #145c2c;
+}
