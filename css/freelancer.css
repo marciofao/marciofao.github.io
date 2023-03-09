@@ -279,7 +279,7 @@ header div img {
 @media (min-width: 768px) {
   .portfolio-modal .portfolio-modal-dialog {
     min-height: 100vh;
-    padding: 5rem;
+    padding: 1rem;
     margin: 3rem calc(3rem - 8px);
   }
 
@@ -355,6 +355,10 @@ form .row:first-child .floating-label-form-group {
 
 a {
   color: #18BC9C;
+}
+
+.align-left{
+  text-align: left;
 }
 
 a:focus,
