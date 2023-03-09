@@ -692,14 +692,11 @@
   <script src="https://unpkg.com/konami"></script>
   <script>
     document.addEventListener("DOMContentLoaded", function (event) {
-
-
-      const easterEgg = new Konami("https://familiafao.orgfree.com/outras/marciobros")
+      const easterEgg = new Konami(() => {
+        if (confirm("Mystery Found!! Continue?")) { window.open("https://familiafao.orgfree.com/outras/marciobros") }
+      })
       console.log("Konami Code ready!")
-
-
     });
-
   </script>
 
   </script>
