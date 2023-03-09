@@ -689,27 +689,18 @@
   <script src="//code.tidio.co/iepyn46hsbqlfci94vv2ghptynzmvk0o.js" async></script>
 
   <!-- Konami code -->
+  <script src="https://unpkg.com/konami"></script>
   <script>
+    document.addEventListener("DOMContentLoaded", function (event) {
 
-    /*   var user_keys = [],
-        konami = '38,38,40,40,37,39,37,39,66,65';
-      document.onkeydown = function (e) {
-        user_keys.push(e.keyCode)
-  
-        if (user_keys.toString().indexOf(konami) >= 0) {
-          // This part will be executed if « Up Up Down Down Left Right Left Right B A »
-          // is recognised from Keyboard or Touch Gesture.
-          console.log("good!")
-          if (confirm("Secret found!! Continue?")) {
-            window.open("https://familiafao.orgfree.com/outras/marciobros")
-          }
-          user_keys = [];
-        }
-      }
-  
-  
+
+      const easterEgg = new Konami("https://familiafao.orgfree.com/outras/marciobros")
       console.log("Konami Code ready!")
-   */
+
+
+    });
+
+  </script>
 
   </script>
 </body>
