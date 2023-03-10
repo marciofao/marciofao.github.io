@@ -223,6 +223,7 @@ header div img {
   display: block;
   max-width: 25rem;
   margin-bottom: 15px;
+  filter: drop-shadow(2px 4px 6px black);
 }
 
 .portfolio .portfolio-item .portfolio-item-caption {
