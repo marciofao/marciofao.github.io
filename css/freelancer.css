@@ -464,3 +464,7 @@ button.bg-primary {
 .copyright{
   background-color: #145c2c;
 }
+
+#about .lead{
+  text-align: justify;
+}
