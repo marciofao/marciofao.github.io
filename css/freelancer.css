@@ -468,3 +468,10 @@ button.bg-primary {
 #about .lead{
   text-align: justify;
 }
+
+img.thigiverse-icon{
+  height: 35px;
+    margin-left: -5px;
+    filter: invert(1);
+    margin-top: -1px;
+}
