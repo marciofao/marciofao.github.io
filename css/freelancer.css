@@ -475,3 +475,7 @@ img.thigiverse-icon{
     filter: invert(1);
     margin-top: -1px;
 }
+
+.btn-social:hover{
+  filter: invert(1);
+}
