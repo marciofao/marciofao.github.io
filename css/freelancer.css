@@ -276,6 +276,10 @@ header div img {
 .portfolio-modal .portfolio-modal-dialog h2 {
   font-size: 2rem;
 }
+.portfolio-modal .img-fluid{
+  filter: drop-shadow(2px 4px 6px black);
+  margin-bottom: 40px;
+}
 
 @media (min-width: 768px) {
   .portfolio-modal .portfolio-modal-dialog {
