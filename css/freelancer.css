@@ -180,7 +180,7 @@ section h2 {
 }
 
 header.masthead {
-  padding-top: calc(6rem + 72px);
+  padding-top: calc(3rem + 72px);
   padding-bottom: 6rem;
 }
 
@@ -200,7 +200,7 @@ header div img {
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(6rem + 106px);
+    padding-top: calc(3rem + 106px);
     padding-bottom: 6rem;
   }
 
@@ -483,5 +483,11 @@ img.thigiverse-icon:hover{
   
     filter: unset;
    
+}
+header h2, header .container, header .cv-details{
+  margin-top: 17px;
+}
+header .thigiverse-icon{
+  width: unset;
 }
 
