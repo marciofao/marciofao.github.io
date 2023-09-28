@@ -276,7 +276,8 @@ header div img {
 .portfolio-modal .portfolio-modal-dialog h2 {
   font-size: 2rem;
 }
-.portfolio-modal .img-fluid{
+
+.portfolio-modal .img-fluid {
   filter: drop-shadow(2px 4px 6px black);
   margin-bottom: 40px;
 }
@@ -362,7 +363,7 @@ a {
   color: #18BC9C;
 }
 
-.align-left{
+.align-left {
   text-align: left;
 }
 
@@ -445,12 +446,12 @@ button.bg-primary {
   margin-bottom: 31px;
 }
 
-.vh-100{
+.vh-100 {
   min-height: calc(100vh) !important;
 }
 
 
-.btn-outline-secondary{
+.btn-outline-secondary {
   color: #18BC9C;
   border-color: #18BC9C;
 }
@@ -461,33 +462,41 @@ button.bg-primary {
   border-color: #18BC9C;
 }
 
-.footer{
+.footer {
   background-color: #1e9244;
 }
 
-.copyright{
+.copyright {
   background-color: #145c2c;
 }
 
-#about .lead{
+#about .lead {
   text-align: justify;
 }
 
-img.thigiverse-icon{
+img.thigiverse-icon {
   height: 35px;
-    margin-left: -5px;
-    filter: invert(1);
-    margin-top: -1px;
+  margin-left: -5px;
+  filter: invert(1);
+  margin-top: -1px;
 }
-img.thigiverse-icon:hover{
-  
-    filter: unset;
-   
+
+img.thigiverse-icon:hover {
+
+  filter: unset;
+
 }
-header h2, header .container, header .cv-details{
+
+header h2,
+header .container,
+header .cv-details {
   margin-top: 17px;
 }
-header .thigiverse-icon{
+
+header .thigiverse-icon {
   width: unset;
 }
 
+.main-picture {
+  margin-bottom: 2rem !important;
+}
