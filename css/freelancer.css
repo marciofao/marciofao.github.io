@@ -475,10 +475,14 @@ button.bg-primary {
 }
 
 img.thigiverse-icon {
-  height: 35px;
-  margin-left: -5px;
+  height: 25px;
+  margin: 0 auto;
   filter: invert(1);
   margin-top: -1px;
+}
+
+img.brtrst-icon{
+  height: 22px;
 }
 
 img.thigiverse-icon:hover {
