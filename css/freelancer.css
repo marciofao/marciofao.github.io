@@ -394,15 +394,15 @@ a:active {
 }
 
 .btn-primary {
-  background-color: #64ce62;
-  border-color: #64ce62;
+  background-color: #406fde;
+  border-color: unset;
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-  background-color: #4da14b;
-  border-color: #4da14b;
+  filter: brightness(90%);
+  border-color: unset;
 }
 
 .btn-secondary {
