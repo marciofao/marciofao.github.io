@@ -398,6 +398,10 @@ a:active {
   border-color: unset;
 }
 
+.modal-btn{
+  width: 157px;
+}
+
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
