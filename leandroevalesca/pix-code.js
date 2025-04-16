@@ -2,6 +2,9 @@
 
 // Format a field with its ID and value
 function pcbFormataCampo(id, valor) {
+    if (!valor || typeof valor !== 'string') {
+        valor = ''; // Ensure valor is a valid string
+    }
     return id + String(valor.length).padStart(2, '0') + valor;
 }
 
@@ -38,6 +41,7 @@ function pcbGeraPix(chave, idTx = '', valor = 0.00) {
     resultado += "5901N";  // Name
     resultado += "6001C";  // City
     resultado += pcbFormataCampo("62", pcbFormataCampo("05", idTx || '***'));
+    console.log('Resultado: ',resultado);
     resultado += "6304"; // Start of CRC16
     resultado += pcbCalculaCRC16(resultado); // Add CRC16 at the end
     return resultado;
