@@ -578,6 +578,12 @@ var wc_order_attribution = {"params":{"lifetime":1.0000000000000001e-5,"session"
 		});
 	});
 	</script>
+	<script>
+		// Remove all srcset attributes from images
+		document.querySelectorAll('img').forEach(img => {
+        img.removeAttribute('srcset');
+    });
+	</script>
 	</body>
 
 <!-- Mirrored from leandroevalesca.local/loja/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Apr 2025 19:02:27 GMT -->
