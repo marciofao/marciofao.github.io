@@ -560,50 +560,74 @@ var wc_order_attribution = {"params":{"lifetime":1.0000000000000001e-5,"session"
 			}
 		});
 		</script>
-		<script src="pix-code.js?1"></script>
+		<!-- <script src="pix-code.js?1"></script> -->
 		<script>
 			document.addEventListener('DOMContentLoaded', function() {
 
 				
 				const chavePix = "88276449034";  //Replace with your PIX key
 				
-				//use timestamp as id
 				const button = document.getElementById('pcb-pix-button');
 				// listen to click in button #pcb-pix-button
-				button.addEventListener("click", function() {
-					const valorTransacao = document.querySelector("#totalValue").innerText;
-					const idTransacao = new Date().getTime();
-					const data = pcbOutputPix(chavePix, valorTransacao, idTransacao);
-					console.log(data);	
-					
-					parent = button.parentNode;
-                        //remove button
-                        parent.removeChild(button);
-                                                
-                        if(data.codigoPix){
-                            if (navigator.clipboard && navigator.clipboard.writeText) {
-                                navigator.clipboard.writeText(data.codigoPix)
-                                    .then(() => {
-                                        alert('Código Pix copiado para área de transferência! Continue o pagamento no app do seu banco');
-                                    })
-                                    .catch((err) => {
-                                        console.error('Failed to copy text: ', err);
-                                    });
-                            }
-                            const p = document.createElement('p');
-                            p.innerText = "Use O QR code abaixo ou copie o código Pix para o seu aplicativo bancário.";
-                            parent.appendChild(p);
-                            const p2 = document.createElement('p');
-                            p2.innerText = data.codigoPix
-                            parent.appendChild(p2);
-                        }
-                        if (data.qrCodeImgSrc) {
-                            
-                            const img = document.createElement('img');
-                            img.src = data.qrCodeImgSrc;
-                            parent.appendChild(img);
-                        }
-				});
+	
+
+				if (button) {
+					button.addEventListener('click', function () {
+						// Extract and format the value
+						let value = document.querySelector("#totalValue").innerText.replace(/\u00a0/g, ' ').trim(); // Remove non-breaking spaces
+						value = value.replace('R$', '').replace('.', '').replace(',', '.'); // Remove currency symbol and format to a valid number
+
+						// Construct the URL with encoded parameters
+						const url = `https://m2utilities.6te.net/pixcode/?pix=${encodeURIComponent(chavePix)}&v=${encodeURIComponent(value)}&id=123`;
+
+						// Perform the fetch request
+						fetch(url)
+						.then((response) => {
+							if (!response.ok) {
+								throw new Error(`HTTP error! Status: ${response.status}`);
+							}
+							return response.json();
+						})
+						.then((data) => {
+							// Remove the button
+							const parent = button.parentNode;
+							parent.removeChild(button);
+
+							// Handle the PIX code and QR code
+							if (data.codigoPix) {
+								if (navigator.clipboard && navigator.clipboard.writeText) {
+									navigator.clipboard.writeText(data.codigoPix)
+										.then(() => {
+											alert('Código Pix copiado para área de transferência! Continue o pagamento no app do seu banco');
+										})
+										.catch((err) => {
+											console.error('Failed to copy text: ', err);
+										});
+								}
+								const p = document.createElement('p');
+								p.innerText = "Use o QR code abaixo ou copie o código Pix para o seu aplicativo bancário.";
+								parent.appendChild(p);
+
+								const p2 = document.createElement('p');
+								p2.innerText = data.codigoPix;
+								parent.appendChild(p2);
+							}
+
+							if (data.qr_code_img_src) {
+								const img = document.createElement('img');
+								img.src = data.qr_code_img_src;
+								parent.appendChild(img);
+							}
+						})
+						.catch((error) => {
+							console.error('Error:', error);
+							alert('Ocorreu um erro ao gerar o código PIX. Tente novamente.');
+						});
+					});
+				} else {
+					console.error('Button not found');	
+				}
+
 
 		
 				// Example: Display the QR code in an HTML element
