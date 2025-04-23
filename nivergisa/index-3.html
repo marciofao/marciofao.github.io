@@ -520,6 +520,23 @@ var wc_order_attribution = {"params":{"lifetime":1.0000000000000001e-5,"session"
 
 						// Handle the PIX code and QR code
 						if (data.codigoPix) {
+							
+							const p = document.createElement('p');
+							p.innerHTML = "Use o QR code abaixo ou copie o código Pix para o seu aplicativo bancário. <br> Copia e cola com valor:";
+							parent.appendChild(p);
+
+							const p2 = document.createElement('p');
+							p2.innerText = data.codigoPix;
+							parent.appendChild(p2);
+							const p3 = document.createElement('p');
+							p3.innerText = 'Chave PIX original: ' + chavePix;
+							parent.appendChild(p3);
+
+							if (data.qr_code_img_src) {
+							const img = document.createElement('img');
+							img.src = data.qr_code_img_src;
+							parent.appendChild(img);
+							}
 							if (navigator.clipboard && navigator.clipboard.writeText) {
 								navigator.clipboard.writeText(data.codigoPix)
 									.then(() => {
@@ -529,20 +546,9 @@ var wc_order_attribution = {"params":{"lifetime":1.0000000000000001e-5,"session"
 										console.error('Failed to copy text: ', err);
 									});
 							}
-							const p = document.createElement('p');
-							p.innerText = "Use o QR code abaixo ou copie o código Pix para o seu aplicativo bancário.";
-							parent.appendChild(p);
-
-							const p2 = document.createElement('p');
-							p2.innerText = data.codigoPix;
-							parent.appendChild(p2);
 						}
 
-						if (data.qr_code_img_src) {
-							const img = document.createElement('img');
-							img.src = data.qr_code_img_src;
-							parent.appendChild(img);
-						}
+						
 					})
 					.catch((error) => {
 						console.error('Error:', error);
