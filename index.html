@@ -109,6 +109,34 @@
               href="https://wa.me/5511976236873?text=Olá, quero construir algo incrível. Vamos conversar?""
                target=" _blank">Contato</a>
           </li>
+          <li>
+            <a href="javascript:ageCheck()" style="margin-top: 99999px; position:absolute">Conheça o projeto de audiodescrição</a>
+          </li>
+          <script>
+            function ageCheck() {
+              var text = "Verificação de idade. Por favor, responda corretamente: \n";
+              text += "Para qê era usado um VCR ? \n";
+              text += "1 - Para ouvir música \n";
+              text += "2 - Para assistir TV \n";
+              text += "3 - Para gravar áudio \n";
+              text += "4 - Para gravar vídeo \n";
+              text += "5 - Para aquecer água \n";
+              var ans = prompt(text,0);
+              if (ans != 4) {
+                console.log(ans);
+                window.open(
+                  'https://www.youtube.com/watch?v=LaM3iHZjg-k',
+                  '_blank' // <- This is what makes it open in a new window.
+                );
+              }else{
+                console.log(ans);
+                window.open(
+                  'https://audioput.github.io/',
+                  '_blank' // <- This is what makes it open in a new window.
+                );
+              }
+            }
+          </script>
         </ul>
       </div>
     </div>
