@@ -74,3 +74,38 @@
   });
 
 })(jQuery); // End of use strict
+
+
+// on dom load add click listener to all a.portifololio-item then focus the current .portfolio-modal-dialog visible, also lock the focus inside the modal
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('a.portfolio-item').forEach(function(el) {
+    el.addEventListener('click', function() {
+      // wait for the modal to be visible
+      setTimeout(function() {
+        var modal = document.querySelector('.portfolio-modal-dialog:visible, .mfp-content .portfolio-modal-dialog');
+        if (modal) {
+          modal.focus();
+          // lock the focus inside the modal
+          modal.addEventListener('keydown', function(e) {
+            if (e.key === 'Tab') {
+              var focusableElements = modal.querySelectorAll('a, button, input, textarea');
+              var firstElement = focusableElements[0];
+              var lastElement = focusableElements[focusableElements.length - 1];
+              if (e.shiftKey) {
+                if (document.activeElement === firstElement) {
+                  lastElement.focus();
+                  e.preventDefault();
+                }
+              } else {
+                if (document.activeElement === lastElement) {
+                  firstElement.focus();
+                  e.preventDefault();
+                }
+              }
+            }
+          });
+        }
+      }, 100);
+    });
+  });
+});
