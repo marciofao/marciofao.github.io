@@ -441,7 +441,7 @@ button.bg-primary {
 
 .navbar-shrink {
   background-color: rgba(0, 0, 0, 0) !important;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 95%, rgba(0, 0, 0, 0) 100%);
 }
 
 .profile-pic {
