@@ -1,0 +1,49 @@
+/* Language Switcher Styles */
+#language-switcher .nav-link {
+    padding: 0.75rem 0 !important;
+}
+
+#language-switcher .btn {
+    border-radius: 20px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    min-width: 40px;
+    transition: all 0.3s ease;
+}
+
+#language-switcher .btn-outline-light:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+#language-switcher .btn-light {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #212529;
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 991.98px) {
+    #language-switcher {
+        text-align: center;
+        margin-top: 1rem;
+    }
+    
+    #language-switcher .nav-link {
+        justify-content: center;
+    }
+}
+
+/* Additional improvements for accessibility */
+#language-switcher .btn:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+    outline: none;
+}
+
+/* Loading state styles */
+body[data-i18n-loading] {
+    cursor: wait;
+}
+
+body[data-i18n-loading] * {
+    pointer-events: none;
+}

@@ -1,0 +1,370 @@
+{
+  "pt": {
+    "navigation": {
+      "portfolio": "Portifolio",
+      "about": "Sobre",
+      "contact": "Contato",
+      "skip_to_content": "Atalho Pular para conteúdo",
+      "menu": "Menu",
+      "toggle_navigation": "Alternar navegação"
+    },
+    "header": {
+      "title": "Márcio Lopes Fão",
+      "subtitle": "Desenvolvimento Web e Acessibilidade",
+      "cv_resume": "CV/Resume"
+    },
+    "portfolio": {
+      "title": "Portifolio",
+      "view_details": "Ver detalhes",
+      "close": "Fechar",
+      "visit_site": "Visitar site",
+      "want_one": "Gostei, quero um!",
+      "want_one_whatsapp": "Achei interessante um projeto seu, quero orçar um igual!",
+      "projects": {
+        "hems": {
+          "title": "Site Tecnologia Fotovoltaica",
+          "alt": "Site Tecnologia Solar",
+          "features": [
+            "Tecnologia Wordpress + generate blocks",
+            "Landing page chamativa",
+            "Formulários ricos em elementos gráficos",
+            "Conversão de design Figma para Generate Blocks",
+            "Site Responsivo"
+          ],
+          "images_alt": [
+            "Página inicial Professora Tati",
+            "seção de preços",
+            "Trajetória profissional",
+            "Formulário de contato"
+          ]
+        },
+        "blazepartners": {
+          "title": "Website empresa de marketing",
+          "alt": "Website empresa de marketing",
+          "features": [
+            "Landing page com vídeo",
+            "Figma para WordPress Gutenberg Editável (user friendly)",
+            "Pixel perfect",
+            "Formulário de contato",
+            "Menu gigante",
+            "Mobile Friendly"
+          ],
+          "images_alt": [
+            "Página inicial vídeo no fundo"
+          ]
+        },
+        "banesco": {
+          "title": "Landing page responsiva utilitária",
+          "alt": "Site de internet banking",
+          "features": [
+            "HTML e CSS + bootstrap",
+            "UI Moderna", 
+            "Codificação de layout",
+            "Design responsivo"
+          ]
+        },
+        "augustoloterias": {
+          "title": "Site de loteria",
+          "alt": "Site de loterias",
+          "features": [
+            "Página inicial com listagem de produtos",
+            "Carrossel de imagens",
+            "Site editável por painel administrativo",
+            "Cadastro de produtos",
+            "Link flutuante whatsapp",
+            "Mobile Friendly",
+            "Página de estatísticas"
+          ]
+        },
+        "editoradoseditores": {
+          "title": "Landing Page Lançamento Livro",
+          "alt": "Landing Page de editora",
+          "features": [
+            "Landing page completa",
+            "Site editável por painel administrativo",
+            "Integração de api externa",
+            "Mobile Friendly",
+            "Formulário de contato"
+          ]
+        },
+        "maiario": {
+          "title": "Site Serviços de transporte",
+          "alt": "Site de empresa de transportes",
+          "features": [
+            "Página inicial com vídeo",
+            "Site editável por painel administrativo",
+            "Carrossel de imagens",
+            "Mobile Friendly"
+          ]
+        },
+        "apecnet": {
+          "title": "Portal Institucional",
+          "alt": "Site institucional da Apecnet",
+          "features": [
+            "Página inicial com Slideshow",
+            "Site em Elementor editável (user friendly)",
+            "Modernização de site antigo",
+            "Formulário de contato",
+            "Acessibilidade DV/Libras",
+            "Mobile Friendly"
+          ]
+        },
+        "newguiabr": {
+          "title": "Landing page Fidelização",
+          "alt": "Landing page Fidelização",
+          "features": [
+            "Landing page com vídeo",
+            "Figma para WordPress Elementor Editável (user friendly)",
+            "Pixel perfect",
+            "Formulário de contato",
+            "Popup de contato",
+            "Mobile Friendly"
+          ]
+        },
+        "portalnewsbrasil": {
+          "title": "Portal de notícias",
+          "alt": "Site professora tati",
+          "features": [
+            "Tecnologia Wordpress",
+            "Landing page atrativa",
+            "Integração com RSS Feed"
+          ]
+        },
+        "tati": {
+          "title": "Site Profissional de Ensino",
+          "alt": "Site professora tati",
+          "features": [
+            "Tecnologia Wordpress",
+            "Landing page chamativa",
+            "Conversão de design Figma para Elementor",
+            "Botão flutuante WhatsApp",
+            "Site Responsivo",
+            "Elementos interativos"
+          ]
+        },
+        "skorelo": {
+          "title": "Site de Vendas Esports",
+          "alt": "Site de vendas Esports",
+          "features": [
+            "Landing page chamativa",
+            "Integração com todos os meios de pagamento",
+            "meios de pagamento cartão, pix, cripto, MercadoPago",
+            "Cupons de desconto",
+            "Seletor de produto com preço dinâmico",
+            "Regularização com LGPD",
+            "Chat Integrado com fanpage"
+          ]
+        }
+      }
+    },
+    "about": {
+      "title": "Sobre",
+      "description": "Desenvolvedor Fullstack Web e especialista em WordPress com mais de 10 anos no desenvolvimento de aplicativos Web. Adepto dos princípios de Clean Code e SOLID. Hábil no desenvolvimento de plugins e temas WordPress, integração de API REST, TDD, testes unitários, testes end-to-end, QA automatizado e ambiente CI/CD. Forte conhecimento do ambiente AWS/EC2/S3, e desenvolvimento de aplicativos conteinerizados. Passionado por tecnologia assistiva e recursos multimídia com acessibilidade. Hobbista em áudio, vídeo,",
+      "photography_link": "fotografia",
+      "and": "e",
+      "printing_3d_link": "impressão 3D",
+      "profile_alt": "Marcio de semi-perfil",
+      "cv_resume": "CV/Resume"
+    },
+    "contact": {
+      "whatsapp_message": "Olá, quero construir algo incrível. Vamos conversar?"
+    },
+    "social_labels": {
+      "github": "Perfil no Github",
+      "linkedin": "Perfil no Linkedin", 
+      "codepen": "Perfil no Codepen",
+      "thingiverse": "Perfil no Thingiverse",
+      "braintrust": "Ser colega no Braintrust",
+      "techdrop": "Conhecer o Techdrop",
+      "bluesky": "Perfil no Bluesky"
+    },
+    "meta": {
+      "title": "Márcio Lopes Fão - Portifolio",
+      "description": "Fullstack web developer, Wordpress Development, E-commerce, PHP, HTML5, JS, Docker, REST API, AWS. More than 9 Years developing web applications."
+    }
+  },
+  "en": {
+    "navigation": {
+      "portfolio": "Portfolio",
+      "about": "About",
+      "contact": "Contact",
+      "skip_to_content": "Skip to content",
+      "menu": "Menu",
+      "toggle_navigation": "Toggle navigation"
+    },
+    "header": {
+      "title": "Márcio Lopes Fão",
+      "subtitle": "Web Development and Accessibility",
+      "cv_resume": "CV/Resume"
+    },
+    "portfolio": {
+      "title": "Portfolio",
+      "view_details": "View details",
+      "close": "Close",
+      "visit_site": "Visit site",
+      "want_one": "I like it, I want one!",
+      "want_one_whatsapp": "I found one of your projects interesting, I want to get a quote for a similar one!",
+      "projects": {
+        "hems": {
+          "title": "Solar Technology Website",
+          "alt": "Solar Technology Site",
+          "features": [
+            "WordPress + Generate Blocks technology",
+            "Eye-catching landing page",
+            "Rich forms with graphic elements",
+            "Figma to Generate Blocks conversion",
+            "Responsive site"
+          ],
+          "images_alt": [
+            "Teacher Tati home page",
+            "pricing section",
+            "professional journey",
+            "contact form"
+          ]
+        },
+        "blazepartners": {
+          "title": "Marketing company website",
+          "alt": "Marketing company website",
+          "features": [
+            "Landing page with video",
+            "Figma to WordPress Gutenberg Editable (user friendly)",
+            "Pixel perfect",
+            "Contact form",
+            "Giant menu",
+            "Mobile Friendly"
+          ],
+          "images_alt": [
+            "Home page video in background"
+          ]
+        },
+        "banesco": {
+          "title": "Responsive utility landing page",
+          "alt": "Internet banking website",
+          "features": [
+            "HTML and CSS + bootstrap",
+            "Modern UI",
+            "Layout coding", 
+            "Responsive design"
+          ]
+        },
+        "augustoloterias": {
+          "title": "Lottery website",
+          "alt": "Lottery website",
+          "features": [
+            "Homepage with product listings",
+            "Image carousel",
+            "Site editable by admin panel",
+            "Product registration",
+            "Floating whatsapp link",
+            "Mobile Friendly",
+            "Statistics page"
+          ]
+        },
+        "editoradoseditores": {
+          "title": "Book Launch Landing Page",
+          "alt": "Publisher landing page",
+          "features": [
+            "Complete landing page",
+            "Site editable by admin panel",
+            "External API integration",
+            "Mobile Friendly",
+            "Contact form"
+          ]
+        },
+        "maiario": {
+          "title": "Transportation Services Website",
+          "alt": "Transportation company website",
+          "features": [
+            "Homepage with video",
+            "Site editable by admin panel",
+            "Image carousel",
+            "Mobile Friendly"
+          ]
+        },
+        "apecnet": {
+          "title": "Institutional Portal",
+          "alt": "Apecnet institutional website",
+          "features": [
+            "Homepage with Slideshow",
+            "Elementor editable site (user friendly)",
+            "Old site modernization",
+            "Contact form",
+            "Accessibility DV/Sign Language",
+            "Mobile Friendly"
+          ]
+        },
+        "newguiabr": {
+          "title": "Customer Loyalty Landing Page",
+          "alt": "Customer Loyalty Landing Page",
+          "features": [
+            "Landing page with video",
+            "Figma to WordPress Elementor Editable (user friendly)",
+            "Pixel perfect",
+            "Contact form",
+            "Contact popup",
+            "Mobile Friendly"
+          ]
+        },
+        "portalnewsbrasil": {
+          "title": "News Portal",
+          "alt": "Teacher Tati's website",
+          "features": [
+            "WordPress technology",
+            "Attractive landing page",
+            "RSS Feed integration"
+          ]
+        },
+        "tati": {
+          "title": "Professional Teaching Website",
+          "alt": "Teacher Tati's website",
+          "features": [
+            "WordPress technology",
+            "Eye-catching landing page",
+            "Figma to Elementor design conversion",
+            "Floating WhatsApp button",
+            "Responsive website",
+            "Interactive elements"
+          ]
+        },
+        "skorelo": {
+          "title": "Esports Sales Website",
+          "alt": "Esports sales website",
+          "features": [
+            "Eye-catching landing page",
+            "Integration with all payment methods",
+            "Payment methods: card, pix, crypto, MercadoPago",
+            "Discount coupons",
+            "Product selector with dynamic pricing",
+            "LGPD compliance",
+            "Integrated chat with fanpage"
+          ]
+        }
+      }
+    },
+    "about": {
+      "title": "About",
+      "description": "Fullstack Web Developer and WordPress specialist with over 10 years of experience in web application development. Advocate of Clean Code and SOLID principles. Skilled in WordPress plugin and theme development, REST API integration, TDD, unit testing, end-to-end testing, automated QA, and CI/CD environments. Strong knowledge of AWS/EC2/S3 environment and containerized application development. Passionate about assistive technology and multimedia resources with accessibility. Hobbyist in audio, video,",
+      "photography_link": "photography",
+      "and": "and",
+      "printing_3d_link": "3D printing",
+      "profile_alt": "Marcio in semi-profile",
+      "cv_resume": "CV/Resume"
+    },
+    "contact": {
+      "whatsapp_message": "Hello, I want to build something amazing. Let's talk?"
+    },
+    "social_labels": {
+      "github": "GitHub Profile",
+      "linkedin": "LinkedIn Profile",
+      "codepen": "CodePen Profile", 
+      "thingiverse": "Thingiverse Profile",
+      "braintrust": "Be a colleague on Braintrust",
+      "techdrop": "Get to know Techdrop",
+      "bluesky": "Bluesky Profile"
+    },
+    "meta": {
+      "title": "Márcio Lopes Fão - Portfolio",
+      "description": "Fullstack web developer, WordPress Development, E-commerce, PHP, HTML5, JS, Docker, REST API, AWS. More than 9 Years developing web applications."
+    }
+  }
+}

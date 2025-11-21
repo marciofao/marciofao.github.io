@@ -61,6 +61,9 @@
 
   <!-- Custom styles for this template -->
   <link href="css/freelancer.css?v=202306132122" rel="stylesheet">
+  
+  <!-- Internationalization styles -->
+  <link href="css/i18n.css" rel="stylesheet">
 
 </head>
 
@@ -90,25 +93,25 @@
   <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">Márcio Fão</a>
-      <a href="#conteudo" class="access-button">Atalho Pular para conteúdo</a>
+      <a href="#conteudo" class="access-button" data-i18n="navigation.skip_to_content">Atalho Pular para conteúdo</a>
       <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button"
         data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-        aria-label="Alternar navegação">
-        Menu
+        aria-label="Alternar navegação" data-i18n-attr="aria-label:navigation.toggle_navigation">
+        <span data-i18n="navigation.menu">Menu</span>
         <i class="fa fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portifolio</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio" data-i18n="navigation.portfolio">Portifolio</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Sobre</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about" data-i18n="navigation.about">Sobre</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
               href="https://wa.me/5511976236873?text=Olá, quero construir algo incrível. Vamos conversar?""
-               target=" _blank">Contato</a>
+               target=" _blank" data-i18n="navigation.contact">Contato</a>
           </li>
           <!-- <li>
             <a href="javascript:ageCheck()" class="access-button">Conheça o projeto de audiodescrição</a>
@@ -144,9 +147,9 @@
         alt="Logotipo Marcio Fão Cubo verde en visão ortogonal com Letra M Seccionada no meio">
       <h1 class="text-uppercase mb-0">Márcio Lopes Fão</h1>
       <!--       <hr class="star-light"> -->
-      <h2 class="font-weight-light mb-0">Desenvolvimento Web e Acessibilidade</h2>
+      <h2 class="font-weight-light mb-0" data-i18n="header.subtitle">Desenvolvimento Web e Acessibilidade</h2>
     </div>
-    <a href="#conteudo" class="access-button">Atalho Pular para conteúdo</a>
+    <a href="#conteudo" class="access-button" data-i18n="navigation.skip_to_content">Atalho Pular para conteúdo</a>
     <div class="container">
       <div class="row">
         <div class="col-md-4 mb-5 mb-lg-0">
@@ -164,21 +167,21 @@
               -->
             <li class="list-inline-item">
               <a class="btn btn-outline-light btn-social text-center rounded-circle" aria-label="Perfil no Github"
-                href="http://github.com/marciofao" target="_blank" rel="nofollow">
+                href="http://github.com/marciofao" target="_blank" rel="nofollow" data-i18n-attr="aria-label:social_labels.github">
               <i class="fa-brands fa-github"></i>
               </a>
             </li>
 
             <li class="list-inline-item">
               <a class="btn btn-outline-light btn-social text-center rounded-circle" aria-label="Perfil no Linkedin"
-                href="https://www.linkedin.com/in/m%C3%A1rcio-lopes-f%C3%A3o-bb559133/" target="_blank" rel="nofollow">
+                href="https://www.linkedin.com/in/m%C3%A1rcio-lopes-f%C3%A3o-bb559133/" target="_blank" rel="nofollow" data-i18n-attr="aria-label:social_labels.linkedin">
                 <i class="fa-brands fa-linkedin"></i>
               </a>
             </li>
 
             <li class="list-inline-item">
               <a class="btn btn-outline-light btn-social text-center rounded-circle" aria-label="Perfil no Codepen"
-                href="https://codepen.io/marciofao/" target="_blank" rel="nofollow">
+                href="https://codepen.io/marciofao/" target="_blank" rel="nofollow" data-i18n-attr="aria-label:social_labels.codepen">
                 <i class="fa fa-brands fa-codepen"></i>
               </a>
             </li>
@@ -197,20 +200,20 @@
             </li> -->
             <li class="list-inline-item">
               <a class="btn btn-outline-light btn-social text-center rounded-circle" aria-label="Perfil no Thingiverse"
-                href="https://www.thingiverse.com/marciofao/designs" target="_blank" rel="nofollow">
+                href="https://www.thingiverse.com/marciofao/designs" target="_blank" rel="nofollow" data-i18n-attr="aria-label:social_labels.thingiverse">
                 <img src="img/thingiverse_icon.png" alt="thingiverse icon" class="thigiverse-icon">
               </a>
             </li>
             <li class="list-inline-item">
               <a class="btn btn-outline-light btn-social text-center rounded-circle"
                 aria-label="Ser colega no Braintrust" href="https://app.usebraintrust.com/r/marcio83/" target="_blank"
-                rel="nofollow">
+                rel="nofollow" data-i18n-attr="aria-label:social_labels.braintrust">
                 <img src="img/braintrust-btrst-logo.png" alt="thingiverse icon" class="thigiverse-icon brtrst-icon">
               </a>
             </li>
             <li class="list-inline-item">
               <a class="btn btn-outline-light btn-social text-center rounded-circle" aria-label="Conhecer o Techdrop"
-                href="https://www.techdrop.news/subscribe?ref=5HatQ5kqCC" target="_blank" rel="nofollow">
+                href="https://www.techdrop.news/subscribe?ref=5HatQ5kqCC" target="_blank" rel="nofollow" data-i18n-attr="aria-label:social_labels.techdrop">
                 <i class="fa-brands fa-bluesky"></i>
               </a>
             </li>
@@ -222,7 +225,7 @@
             </li> -->
             <li class="list-inline-item">
               <a class="btn btn-outline-light btn-social text-center rounded-circle" aria-label="Perfil no Bluesky"
-                href="https://bsky.app/profile/marciofao.bsky.social" target="_blank" rel="nofollow">
+                href="https://bsky.app/profile/marciofao.bsky.social" target="_blank" rel="nofollow" data-i18n-attr="aria-label:social_labels.bluesky">
                 <img src="img/thumb_gota_black.avif" alt="thingiverse icon" class="thigiverse-icon brtrst-icon">
               </a>
             </li>
@@ -237,7 +240,7 @@
       <p class="center cv-details" id="conteudo">
         <a href="https://docs.google.com/document/d/1RKpVCV48_wmMMd9MbyevViQJmxpW_8m4PkGQd5NoNjM/preview"
           target="_blank" rel="nofollow" class="btn btn-outline-secondary">
-          CV/Resume <i class="fa fa-external-link"></i>
+          <span data-i18n="header.cv_resume">CV/Resume</span> <i class="fa fa-external-link"></i>
         </a>
       </p>
 
@@ -247,7 +250,7 @@
   <!-- Portfolio Grid Section -->
   <section class="portfolio vh-100" id="portfolio">
     <div class="container">
-      <h2 class="text-center text-uppercase text-secondary mb-0" >Portifolio</h2>
+      <h2 class="text-center text-uppercase text-secondary mb-0" data-i18n="portfolio.title">Portifolio</h2>
       <hr class="star-dark mb-5" inert>
       <div class="row">
 
@@ -259,7 +262,7 @@
                 <i class="fa fa-search-plus fa-3x"></i>
               </div>
             </div>
-            <img loading="lazy" class="img-fluid" alt="Site Tecnologia Solar" src="img/hems1.png">
+            <img loading="lazy" class="img-fluid" alt="Site Tecnologia Solar" src="img/hems1.png" data-i18n-attr="alt:portfolio.projects.hems.alt">
           </a>
         </div>
 
@@ -272,24 +275,24 @@
             <div class="container text-center">
               <div class="row">
                 <div class="col-lg-8 mx-auto">
-                  <h2 class="text-secondary modal-title text-uppercase mb-0">Site Tecnologia Fotovoltaica</h2>
+                  <h2 class="text-secondary modal-title text-uppercase mb-0" data-i18n="portfolio.projects.hems.title">Site Tecnologia Fotovoltaica</h2>
                   <hr class="star-dark mb-5" inert>
 
                   <div class="mb-5 align-left">
                     <ul>
-                      <li>Tecnologia Wordpress + generate blocks</li>
-                      <li>Landing page chamativa</li>
-                      <li>Formulários ricos em elementos gráicos</li>
-                      <li>Conversão de design Figma para Generate Blocks</li>
-                      <li>Site Responsivo</li>
+                      <li data-i18n="portfolio.projects.hems.features.0">Tecnologia Wordpress + generate blocks</li>
+                      <li data-i18n="portfolio.projects.hems.features.1">Landing page chamativa</li>
+                      <li data-i18n="portfolio.projects.hems.features.2">Formulários ricos em elementos gráficos</li>
+                      <li data-i18n="portfolio.projects.hems.features.3">Conversão de design Figma para Generate Blocks</li>
+                      <li data-i18n="portfolio.projects.hems.features.4">Site Responsivo</li>
                     </ul>
                   </div>
 
                   <img loading="lazy" class="img-fluid mb-5" src="img/hems1.png"
-                    alt="Página inicial Professora Tati">
-                  <img loading="lazy" class="img-fluid mb-5" src="img/hems2.png" alt="seçao de preços">
-                  <img loading="lazy" class="img-fluid mb-5" src="img/hems3.png" alt="Trajetoria profssional">
-                  <img loading="lazy" class="img-fluid mb-5" src="img/hems4.png" alt="Formulário de contato">
+                    alt="Página inicial Professora Tati" data-i18n-attr="alt:portfolio.projects.hems.images_alt.0">
+                  <img loading="lazy" class="img-fluid mb-5" src="img/hems2.png" alt="seção de preços" data-i18n-attr="alt:portfolio.projects.hems.images_alt.1">
+                  <img loading="lazy" class="img-fluid mb-5" src="img/hems3.png" alt="Trajetória profissional" data-i18n-attr="alt:portfolio.projects.hems.images_alt.2">
+                  <img loading="lazy" class="img-fluid mb-5" src="img/hems4.png" alt="Formulário de contato" data-i18n-attr="alt:portfolio.projects.hems.images_alt.3">
 
 
                   <!--  <p><a href="https://" target="_blank" rel="nofollow"
@@ -298,7 +301,7 @@
                   <div>
                     <a class="btn btn-success btn-sm rounded-pill modal-btn" target="_blank"
                       href="https://wa.me/5511976236873?text=Achei%20interessante%20um%20projeto%20seu,%20quero%20or%C3%A7ar%20um%20igual!">
-                      Gostei, quero um!
+                      <span data-i18n="portfolio.want_one">Gostei, quero um!</span>
                       <i class="fa fa-rocket"></i>
                     </a>
                   </div>
@@ -306,7 +309,7 @@
                   <div>
                     <a class="btn btn-danger btn-sm rounded-pill modal-btn portfolio-modal-dismiss" href="#">
                       <i class="fa fa-close"></i>
-                      Fechar</a>
+                      <span data-i18n="portfolio.close">Fechar</span></a>
                   </div>
                 </div>
               </div>
@@ -336,29 +339,29 @@
             <div class="container text-center">
               <div class="row">
                 <div class="col-lg-8 mx-auto">
-                  <h2 class="text-secondary modal-title text-uppercase mb-0">Website empresa de marketing</h2>
+                  <h2 class="text-secondary modal-title text-uppercase mb-0" data-i18n="portfolio.projects.blazepartners.title">Website empresa de marketing</h2>
                   <hr class="star-dark mb-5" inert>
 
                   <div class="mb-5 align-left">
                     <ul>
-                      <li>Landing page com vídeo</li>
-                      <li>Figma para WordPress Gutenberg Editável (user friendly)</li>
-                      <li>Pixel perfect</li>
-                      <li>Formulário de contato</li>
-                      <li>Menu gigante</li>
-                      <li>Mobile Friendly</li>
+                      <li data-i18n="portfolio.projects.blazepartners.features.0">Landing page com vídeo</li>
+                      <li data-i18n="portfolio.projects.blazepartners.features.1">Figma para WordPress Gutenberg Editável (user friendly)</li>
+                      <li data-i18n="portfolio.projects.blazepartners.features.2">Pixel perfect</li>
+                      <li data-i18n="portfolio.projects.blazepartners.features.3">Formulário de contato</li>
+                      <li data-i18n="portfolio.projects.blazepartners.features.4">Menu gigante</li>
+                      <li data-i18n="portfolio.projects.blazepartners.features.5">Mobile Friendly</li>
                     </ul>
                   </div>
 
                   <img loading="lazy" class="img-fluid mb-5" src="img/blaze-partners1.png"
-                    alt="Página inicial video no fundo">
+                    alt="Página inicial video no fundo" data-i18n-attr="alt:portfolio.projects.blazepartners.images_alt.0">
                   <p><a href="https://blazepartners.amb.app.br/" target="_blank" rel="nofollow"
-                      class="btn btn-primary rounded-pill rounded-pill modal-btn">Visitar site <i class="fa fa-external-link"></i></a>
+                      class="btn btn-primary rounded-pill rounded-pill modal-btn"><span data-i18n="portfolio.visit_site">Visitar site</span> <i class="fa fa-external-link"></i></a>
                   </p>
                   <div>
                     <a class="btn btn-success btn-sm rounded-pill modal-btn" target="_blank"
                       href="https://wa.me/5511976236873?text=Achei%20interessante%20um%20projeto%20seu,%20quero%20or%C3%A7ar%20um%20igual!">
-                      Gostei, quero um!
+                      <span data-i18n="portfolio.want_one">Gostei, quero um!</span>
                       <i class="fa fa-rocket"></i>
                     </a>
                   </div>
@@ -366,7 +369,7 @@
                   <div>
                     <a class="btn btn-danger btn-sm rounded-pill modal-btn portfolio-modal-dismiss" href="#">
                       <i class="fa fa-close"></i>
-                      Fechar</a>
+                      <span data-i18n="portfolio.close">Fechar</span></a>
                   </div>
                 </div>
               </div>
@@ -382,7 +385,7 @@
                 <i class="fa fa-search-plus fa-3x"></i>
               </div>
             </div>
-            <img loading="lazy" class="img-fluid" alt="Site de internet banking" src="img/banesco-contigo1.png">
+            <img loading="lazy" class="img-fluid" alt="Site de internet banking" src="img/banesco-contigo1.png" data-i18n-attr="alt:portfolio.projects.banesco.alt">
           </a>
         </div>
 
@@ -395,15 +398,15 @@
             <div class="container text-center">
               <div class="row">
                 <div class="col-lg-8 mx-auto">
-                  <h2 class="text-secondary modal-title text-uppercase mb-0">Landing page responsiva utilitária</h2>
+                  <h2 class="text-secondary modal-title text-uppercase mb-0" data-i18n="portfolio.projects.banesco.title">Landing page responsiva utilitária</h2>
                   <hr class="star-dark mb-5" inert>
 
                   <div class="mb-5 align-left">
                     <ul>
-                      <li>HTML e CSS + bootstrap</li>
-                      <li>UI Moderna</li>
-                      <li>Codificação de layout</li>
-                      <li>Design responsivo</li>
+                      <li data-i18n="portfolio.projects.banesco.features.0">HTML e CSS + bootstrap</li>
+                      <li data-i18n="portfolio.projects.banesco.features.1">UI Moderna</li>
+                      <li data-i18n="portfolio.projects.banesco.features.2">Codificação de layout</li>
+                      <li data-i18n="portfolio.projects.banesco.features.3">Design responsivo</li>
                     </ul>
                   </div>
 
@@ -446,7 +449,7 @@
                 <i class="fa fa-search-plus fa-3x"></i>
               </div>
             </div>
-            <img loading="lazy" class="img-fluid" alt="Site de loterias" src="img/augustaloterias.jpg">
+            <img loading="lazy" class="img-fluid" alt="Site de loterias" src="img/augustaloterias.jpg" data-i18n-attr="alt:portfolio.projects.augustoloterias.alt">
             
           </a>
         </div>
@@ -460,18 +463,18 @@
             <div class="container text-center">
               <div class="row">
                 <div class="col-lg-8 mx-auto">
-                  <h2 class="text-secondary modal-title text-uppercase mb-0">Site de loteria</h2>
+                  <h2 class="text-secondary modal-title text-uppercase mb-0" data-i18n="portfolio.projects.augustoloterias.title">Site de loteria</h2>
                   <hr class="star-dark mb-5" inert>
 
                   <div class="mb-5 align-left">
                     <ul>
-                      <li>Página inicial com listagem de produtos</li>
-                      <li>Carrossel de imagens</li>
-                      <li>Site editável por painel admnistrativo</li>
-                      <li>Cadastro de produtos</li>
-                      <li>Link flutuante whatsapp</li>
-                      <li>Mobile Friendly</li>
-                      <li>Página de estatísticas</li>
+                      <li data-i18n="portfolio.projects.augustoloterias.features.0">Página inicial com listagem de produtos</li>
+                      <li data-i18n="portfolio.projects.augustoloterias.features.1">Carrossel de imagens</li>
+                      <li data-i18n="portfolio.projects.augustoloterias.features.2">Site editável por painel admnistrativo</li>
+                      <li data-i18n="portfolio.projects.augustoloterias.features.3">Cadastro de produtos</li>
+                      <li data-i18n="portfolio.projects.augustoloterias.features.4">Link flutuante whatsapp</li>
+                      <li data-i18n="portfolio.projects.augustoloterias.features.5">Mobile Friendly</li>
+                      <li data-i18n="portfolio.projects.augustoloterias.features.6">Página de estatísticas</li>
                     </ul>
                   </div>
 
@@ -515,7 +518,7 @@
                 <i class="fa fa-search-plus fa-3x"></i>
               </div>
             </div>
-            <img loading="lazy" class="img-fluid" alt="Landing Page de editora" src="img/editoradoseditores1.jpg">
+            <img loading="lazy" class="img-fluid" alt="Landing Page de editora" src="img/editoradoseditores1.jpg" data-i18n-attr="alt:portfolio.projects.editoradoseditores.alt">
             
           </a>
         </div>
@@ -529,16 +532,16 @@
             <div class="container text-center">
               <div class="row">
                 <div class="col-lg-8 mx-auto">
-                  <h2 class="text-secondary modal-title text-uppercase mb-0">Landing Page Lançamento Livro</h2>
+                  <h2 class="text-secondary modal-title text-uppercase mb-0" data-i18n="portfolio.projects.editoradoseditores.title">Landing Page Lançamento Livro</h2>
                   <hr class="star-dark mb-5" inert>
 
                   <div class="mb-5 align-left">
                     <ul>
-                      <li>Landing page completa</li>
-                      <li>Site editável por painel admnistrativo</li>
-                      <li>Integração de api externa</li>
-                      <li>Mobile Friendly</li>
-                      <li>Formulário de contato</li>
+                      <li data-i18n="portfolio.projects.editoradoseditores.features.0">Landing page completa</li>
+                      <li data-i18n="portfolio.projects.editoradoseditores.features.1">Site editável por painel admnistrativo</li>
+                      <li data-i18n="portfolio.projects.editoradoseditores.features.2">Integração de api externa</li>
+                      <li data-i18n="portfolio.projects.editoradoseditores.features.3">Mobile Friendly</li>
+                      <li data-i18n="portfolio.projects.editoradoseditores.features.4">Formulário de contato</li>
                     </ul>
                   </div>
 
@@ -578,7 +581,7 @@
                 <i class="fa fa-search-plus fa-3x"></i>
               </div>
             </div>
-            <img loading="lazy" class="img-fluid" alt="Site de empresa de transportes" src="img/maiario.jpg">
+            <img loading="lazy" class="img-fluid" alt="Site de empresa de transportes" src="img/maiario.jpg" data-i18n-attr="alt:portfolio.projects.maiario.alt">
             
           </a>
         </div>
@@ -592,15 +595,15 @@
             <div class="container text-center">
               <div class="row">
                 <div class="col-lg-8 mx-auto">
-                  <h2 class="text-secondary modal-title text-uppercase mb-0">Site Serviços de transporte</h2>
+                  <h2 class="text-secondary modal-title text-uppercase mb-0" data-i18n="portfolio.projects.maiario.title">Site Serviços de transporte</h2>
                   <hr class="star-dark mb-5" inert>
 
                   <div class="mb-5 align-left">
                     <ul>
-                      <li>Pagina inicial com video</li>
-                      <li>Site editável por painel admnistrativo</li>
-                      <li>Carrossel de imagens</li>
-                      <li>Mobile Friendly</li>
+                      <li data-i18n="portfolio.projects.maiario.features.0">Pagina inicial com video</li>
+                      <li data-i18n="portfolio.projects.maiario.features.1">Site editável por painel admnistrativo</li>
+                      <li data-i18n="portfolio.projects.maiario.features.2">Carrossel de imagens</li>
+                      <li data-i18n="portfolio.projects.maiario.features.3">Mobile Friendly</li>
                     </ul>
                   </div>
 
@@ -636,7 +639,7 @@
                 <i class="fa fa-search-plus fa-3x"></i>
               </div>
             </div>
-            <img loading="lazy" class="img-fluid" alt="Site institucional da Apecnet" src="img/apecnet.jpg">
+            <img loading="lazy" class="img-fluid" alt="Site institucional da Apecnet" src="img/apecnet.jpg" data-i18n-attr="alt:portfolio.projects.apecnet.alt">
           </a>
         </div>
 
@@ -649,17 +652,17 @@
             <div class="container text-center">
               <div class="row">
                 <div class="col-lg-8 mx-auto">
-                  <h2 class="text-secondary modal-title text-uppercase mb-0">Portal Institucional</h2>
+                  <h2 class="text-secondary modal-title text-uppercase mb-0" data-i18n="portfolio.projects.apecnet.title">Portal Institucional</h2>
                   <hr class="star-dark mb-5" inert>
 
                   <div class="mb-5 align-left">
                     <ul>
-                      <li>Pagina inicial com Slideshow</li>
-                      <li>Site em Elementor editável (user friendly)</li>
-                      <li>Modernização de site antigo</li>
-                      <li>Formulário de contato</li>
-                      <li>Acessibilidade DV/Libras</li>
-                      <li>Mobile Friendly</li>
+                      <li data-i18n="portfolio.projects.apecnet.features.0">Pagina inicial com Slideshow</li>
+                      <li data-i18n="portfolio.projects.apecnet.features.1">Site em Elementor editável (user friendly)</li>
+                      <li data-i18n="portfolio.projects.apecnet.features.2">Modernização de site antigo</li>
+                      <li data-i18n="portfolio.projects.apecnet.features.3">Formulário de contato</li>
+                      <li data-i18n="portfolio.projects.apecnet.features.4">Acessibilidade DV/Libras</li>
+                      <li data-i18n="portfolio.projects.apecnet.features.5">Mobile Friendly</li>
                     </ul>
                   </div>
 
@@ -710,17 +713,17 @@
             <div class="container text-center">
               <div class="row">
                 <div class="col-lg-8 mx-auto">
-                  <h2 class="text-secondary modal-title text-uppercase mb-0">Landing page Fidelização</h2>
+                  <h2 class="text-secondary modal-title text-uppercase mb-0" data-i18n="portfolio.projects.newguiabr.title">Landing page Fidelização</h2>
                   <hr class="star-dark mb-5" inert>
 
                   <div class="mb-5 align-left">
                     <ul>
-                      <li>Landing page com vídeo</li>
-                      <li>Figma para WordPress Elementor Editável (user friendly)</li>
-                      <li>Pixel perfect</li>
-                      <li>Formulário de contato</li>
-                      <li>Popup de contato</li>
-                      <li>Mobile Friendly</li>
+                      <li data-i18n="portfolio.projects.newguiabr.features.0">Landing page com vídeo</li>
+                      <li data-i18n="portfolio.projects.newguiabr.features.1">Figma para WordPress Elementor Editável (user friendly)</li>
+                      <li data-i18n="portfolio.projects.newguiabr.features.2">Pixel perfect</li>
+                      <li data-i18n="portfolio.projects.newguiabr.features.3">Formulário de contato</li>
+                      <li data-i18n="portfolio.projects.newguiabr.features.4">Popup de contato</li>
+                      <li data-i18n="portfolio.projects.newguiabr.features.5">Mobile Friendly</li>
                     </ul>
                   </div>
 
@@ -769,14 +772,14 @@
             <div class="container text-center">
               <div class="row">
                 <div class="col-lg-8 mx-auto">
-                  <h2 class="text-secondary modal-title text-uppercase mb-0">Portal de notícias</h2>
+                  <h2 class="text-secondary modal-title text-uppercase mb-0" data-i18n="portfolio.projects.portalnewsbrasil.title">Portal de notícias</h2>
                   <hr class="star-dark mb-5" inert>
 
                   <div class="mb-5 align-left">
                     <ul>
-                      <li>Tecnologia Wordpress</li>
-                      <li>Landing page atrativa</li>
-                      <li>Integração com RSS Feed</li>
+                      <li data-i18n="portfolio.projects.portalnewsbrasil.features.0">Tecnologia Wordpress</li>
+                      <li data-i18n="portfolio.projects.portalnewsbrasil.features.1">Landing page atrativa</li>
+                      <li data-i18n="portfolio.projects.portalnewsbrasil.features.2">Integração com RSS Feed</li>
                     </ul>
                   </div>
 
@@ -825,17 +828,17 @@
             <div class="container text-center">
               <div class="row">
                 <div class="col-lg-8 mx-auto">
-                  <h2 class="text-secondary modal-title text-uppercase mb-0">Site Profissional de Ensino</h2>
+                  <h2 class="text-secondary modal-title text-uppercase mb-0" data-i18n="portfolio.projects.tati.title">Site Profissional de Ensino</h2>
                   <hr class="star-dark mb-5" inert>
 
                   <div class="mb-5 align-left">
                     <ul>
-                      <li>Tecnologia Wordpress</li>
-                      <li>Landing page chamativa</li>
-                      <li>Conversão de design Figma para Elementor</li>
-                      <li>Botão flutuante WhatsApp</li>
-                      <li>Site Responsivo</li>
-                      <li>Elementos interativos</li>
+                      <li data-i18n="portfolio.projects.tati.features.0">Tecnologia Wordpress</li>
+                      <li data-i18n="portfolio.projects.tati.features.1">Landing page chamativa</li>
+                      <li data-i18n="portfolio.projects.tati.features.2">Conversão de design Figma para Elementor</li>
+                      <li data-i18n="portfolio.projects.tati.features.3">Botão flutuante WhatsApp</li>
+                      <li data-i18n="portfolio.projects.tati.features.4">Site Responsivo</li>
+                      <li data-i18n="portfolio.projects.tati.features.5">Elementos interativos</li>
                     </ul>
                   </div>
 
@@ -889,18 +892,18 @@
             <div class="container text-center">
               <div class="row">
                 <div class="col-lg-8 mx-auto">
-                  <h2 class="text-secondary modal-title text-uppercase mb-0">Site de Vendas Esports</h2>
+                  <h2 class="text-secondary modal-title text-uppercase mb-0" data-i18n="portfolio.projects.skorelo.title">Site de Vendas Esports</h2>
                   <hr class="star-dark mb-5" inert>
 
                   <div class="mb-5 align-left">
                     <ul>
-                      <li>Landing page chamativa</li>
-                      <li>Integração com todos os meios de pagamento</li>
-                      <li>meios de pagamento cartão, pix, cripto, MercadoPago</li>
-                      <li>Cupons de desconto</li>
-                      <li>Seletor de produto com preço dinâmico</li>
-                      <li>Regularização com LGPD</li>
-                      <li>Chat Integrado com fanpage</li>
+                      <li data-i18n="portfolio.projects.skorelo.features.0">Landing page chamativa</li>
+                      <li data-i18n="portfolio.projects.skorelo.features.1">Integração com todos os meios de pagamento</li>
+                      <li data-i18n="portfolio.projects.skorelo.features.2">meios de pagamento cartão, pix, cripto, MercadoPago</li>
+                      <li data-i18n="portfolio.projects.skorelo.features.3">Cupons de desconto</li>
+                      <li data-i18n="portfolio.projects.skorelo.features.4">Seletor de produto com preço dinâmico</li>
+                      <li data-i18n="portfolio.projects.skorelo.features.5">Regularização com LGPD</li>
+                      <li data-i18n="portfolio.projects.skorelo.features.6">Chat Integrado com fanpage</li>
                     </ul>
                   </div>
 
@@ -1773,16 +1776,16 @@
   <!-- About Section -->
   <section class="bg-primary text-white mb-0 vh-100" id="about">
     <div class="container">
-      <h2 class="text-center text-uppercase text-white">Sobre</h2>
+      <h2 class="text-center text-uppercase text-white" data-i18n="about.title">Sobre</h2>
       <hr class="star-light mb-5" inert>
       <div class="row">
         <div class="center">
-          <img loading="lazy" class="profile-pic" src="img/marciofao_profile.jpg" alt="Marcio de semi-perfil">
+          <img loading="lazy" class="profile-pic" src="img/marciofao_profile.jpg" alt="Marcio de semi-perfil" data-i18n-attr="alt:about.profile_alt">
         </div>
       </div>
       <div class="row">
         <div class="pr-3 pl-3 md:ml-auto md:mr-auto">
-          <p class="lead pt-br">Desenvolvedor Fullstack Web e especialista em WordPress com mais de 10 anos no
+          <p class="lead pt-br" data-i18n="about.description">Desenvolvedor Fullstack Web e especialista em WordPress com mais de 10 anos no
             desenvolvimento de aplicativos Web.
             Adepto dos princípios de Clean Code e SOLID. Hábil no desenvolvimento de plugins e temas WordPress,
             integração de
@@ -1799,7 +1802,7 @@
         <p class="center cv-details">
           <a href="https://docs.google.com/document/d/1RKpVCV48_wmMMd9MbyevViQJmxpW_8m4PkGQd5NoNjM/preview"
             target="_blank" rel="nofollow" class="btn btn-outline-secondary">
-            CV/Resume <i class="fa fa-external-link"></i>
+            <span data-i18n="about.cv_resume">CV/Resume</span> <i class="fa fa-external-link"></i>
           </a>
         </p>
 
@@ -1928,6 +1931,9 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/freelancer.min.js?ver=14102025"></script>
+
+  <!-- Internationalization -->
+  <script src="js/i18n.js"></script>
 
   <!-- chat widget   -->
   <!-- <script src="//code.tidio.co/iepyn46hsbqlfci94vv2ghptynzmvk0o.js" async></script> -->
