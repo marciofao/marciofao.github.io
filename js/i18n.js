@@ -179,7 +179,7 @@ class I18n {
             const andText = this.getTranslation('about.and');
             const printing3dLink = this.getTranslation('about.printing_3d_link');
 
-            aboutDesc.innerHTML = `${description} <a href="http://instagram.com/macro_martian" target="_blank">${photographyLink}</a> ${andText} <a href="https://cubee3d.com/mobile/store/Creativers%203D" target="_blank">${printing3dLink}</a>`;
+            aboutDesc.innerHTML = `${description} <a href="http://instagram.com/macro_martian" target="_blank">${photographyLink}</a> ${andText} <a href="https://www.thingiverse.com/marciofao/designs" target="_blank">${printing3dLink}</a>`;
         }
 
         // Update common modal buttons that don't have data-i18n attributes
