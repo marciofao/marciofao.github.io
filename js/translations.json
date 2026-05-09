@@ -2,6 +2,7 @@
   "pt": {
     "navigation": {
       "portfolio": "Portifolio",
+      "3dprints": "Impressão 3D",
       "about": "Sobre",
       "contact": "Contato",
       "skip_to_content": "Atalho Pular para conteúdo",
@@ -157,6 +158,54 @@
         }
       }
     },
+    "portifolio3d": {
+      "title": "Portifólio de impressão 3D",
+      "more_info": "Saiba mais",
+      "projects": {
+          "decorativo": {
+            "title": "Decoração",
+            "alt": "3D printed decorative items"
+          },
+          "colecao": {
+            "title": "Colecionáveis",
+            "alt": "3D printed decorative items"
+          },
+          "estatueta": {
+            "title": "Estatuetas",
+            "alt": "3D printed decorative items"
+          },
+          "bonecos": {
+            "title": "Bonecos personalizados",
+            "alt": "3D printed decorative items"
+          },
+          "didatico": {
+            "title": "Itens didáticos",
+            "alt": "mateirais didaticos"
+          },
+          "bijuteria": {
+            "title": "Adornos e bijuterias",
+            "alt": "brincos"
+          },
+          "objetos": {
+            "title": "Objetos funcionais e utilitários",
+            "alt": "brincos"
+          }
+          ,
+          "maquete": {
+            "title": "Maquetes táteis",
+            "alt": "maquete"
+          }
+          ,
+          "prototipagem": {
+            "title": "prototipagem rápida",
+            "alt": "prototipagem"
+          }
+        }
+    },
+    "3dprints": {
+      "title": "Impressão 3D",
+      "more_info": "Saiba mais"
+    },
     "about": {
       "title": "Sobre",
       "description": "Desenvolvedor Fullstack Web e especialista em WordPress com mais de 10 anos no desenvolvimento de aplicativos Web. Adepto dos princípios de Clean Code e SOLID. Hábil no desenvolvimento de plugins e temas WordPress, integração de API REST, TDD, testes unitários, testes end-to-end, QA automatizado e ambiente CI/CD. Forte conhecimento do ambiente AWS/EC2/S3, e desenvolvimento de aplicativos conteinerizados. Passionado por tecnologia assistiva e recursos multimídia com acessibilidade. Hobbista em áudio, vídeo,",
@@ -186,6 +235,7 @@
   "en": {
     "navigation": {
       "portfolio": "Portfolio",
+      "3dprints": "3D Printing",
       "about": "About",
       "contact": "Contact",
       "skip_to_content": "Skip to content",
@@ -340,6 +390,20 @@
           ]
         }
       }
+    },
+    "portifolio3d": { 
+      "title": "3D Printing portfolio",
+      "more_info": "Saiba mais",
+        "projects": {
+          "decorativo": {
+            "title": "Decorative 3D Prints",
+            "alt": "3D printed decorative items"
+          }
+        }
+    },
+    "3dprints": {
+      "title": "3D Printing",
+      "more_info": "Learn more"
     },
     "about": {
       "title": "About",
