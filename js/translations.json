@@ -391,13 +391,49 @@
         }
       }
     },
-    "portifolio3d": { 
-      "title": "3D Printing portfolio",
+    "portifolio3d": {
+      "title": "3D Printing Portfolio",
       "more_info": "Saiba mais",
-        "projects": {
+      "want_one": "I like it, I want one!",
+      "close": "Close",
+      "projects": {
           "decorativo": {
-            "title": "Decorative 3D Prints",
+            "title": "Decorative",
             "alt": "3D printed decorative items"
+          },
+          "colecao": {
+            "title": "Collectibles",
+            "alt": "3D printed decorative items"
+          },
+          "estatueta": {
+            "title": "Estatues",
+            "alt": "3D printed decorative items"
+          },
+          "bonecos": {
+            "title": "Custom Dolls",
+            "alt": "3D printed decorative items"
+          },
+          "didatico": {
+            "title": "Didactic Items",
+            "alt": "mateirais didaticos"
+          },
+          "bijuteria": {
+            "title": "Decorative items",
+            "alt": "brincos"
+          },
+          "objetos": {
+            "title": "Functional and utility objects",
+            "alt": "brincos"
+          }
+          ,
+          "maquete": {
+            "title": "tactile models",
+            "alt": "maquete"
+          }
+          ,
+          "prototipagem": {
+            "title": "Rapid Prototyping",
+            "alt": "prototipagem"
           }
         }
     },
