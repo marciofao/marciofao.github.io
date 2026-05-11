@@ -558,6 +558,13 @@ header .thigiverse-icon {
   position: relative;
 }
 
+/* media query under 768px */
+@media (max-width: 767px) {
+  #carousel3dprints {
+    height: 363px;
+  }
+}
+
 #carousel3dprints .carousel-item {
   height: 100%;
 }
