@@ -161,13 +161,15 @@
     "portifolio3d": {
       "title": "Portifólio de impressão 3D",
       "more_info": "Saiba mais",
+      "want_one": "Gostei, quero um!",
+      "close": "Fechar",
       "projects": {
           "decorativo": {
             "title": "Decoração",
             "alt": "3D printed decorative items"
           },
           "colecao": {
-            "title": "Colecionáveis",
+            "title": "Colecionáveis Personalizados",
             "alt": "3D printed decorative items"
           },
           "estatueta": {
@@ -414,7 +416,7 @@
             "alt": "3D printed decorative items"
           },
           "didatico": {
-            "title": "Didactic Items",
+            "title": "Educational Items",
             "alt": "mateirais didaticos"
           },
           "bijuteria": {

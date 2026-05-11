@@ -71,20 +71,37 @@
   
   
   <!-- Navigation -->
+<!-- Navigation -->
   <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="/">Márcio Fão</a>
       <a href="#conteudo" class="access-button" data-i18n="navigation.skip_to_content">Atalho Pular para conteúdo</a>
-      
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#3dprints" data-i18n="navigation.3dprints">Impressão 3D</a>
-          </li>
-        </ul>
-      </div>
+      <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button"
+      data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+      aria-label="Alternar navegação" data-i18n-attr="aria-label:navigation.toggle_navigation">
+      <span data-i18n="navigation.menu">Menu</span>
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item mx-0 mx-lg-1">
+          <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="/#portfolio" data-i18n="navigation.portfolio">Portifolio</a>
+        </li>
+        <li class="nav-item mx-0 mx-lg-1">
+          <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#3dprints" data-i18n="navigation.3dprints">Impressão 3D</a>
+        </li>
+        <li class="nav-item mx-0 mx-lg-1">
+          <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="/#about" data-i18n="navigation.about">Sobre</a>
+        </li>
+        <li class="nav-item mx-0 mx-lg-1">
+          <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+          href="https://wa.me/5511976236873?text=Olá, quero construir algo incrível. Vamos conversar?""
+          target=" _blank" data-i18n="navigation.contact">Contato</a>
+        </li>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
   
   <header>
     
@@ -167,7 +184,8 @@
           altI18n: 'portifolio3d.projects.bonecos.alt',
           modalTitleI18n: 'portifolio3d.projects.bonecos.title',
           modalImages: [
-          { src: 'img/3dprints/slider daft punk.png', altI18n: '' },
+            { src: 'img/3dprints/puppet-video.gif', altI18n: '' },
+            { src: 'img/3dprints/slider daft punk.png', altI18n: '' },
             { src: 'img/3dprints/slider funko harold hide the pain.png', altI18n: '' },            
             { src: 'img/3dprints/amora-brainrot-ai.jpeg', altI18n: '' },            
             { src: 'img/3dprints/amora brairot impressao.jpeg', altI18n: '' },
