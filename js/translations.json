@@ -22,6 +22,54 @@
       "want_one": "Gostei, quero um!",
       "want_one_whatsapp": "Achei interessante um projeto seu, quero orçar um igual!",
       "projects": {
+        "nadasobrenos": {
+          "title": "Site institucional ONG acessibilidade",
+          "alt": "Site ONG acessibilidade",
+          "features": [
+            "Tecnologia WordPress",
+            "Landing page minimalista",
+            "Acessibilidade otimizada",
+            "Site Responsivo"
+          ],
+          "images_alt": [
+            "Página inicial ONG",
+            "3 seções da visualização móvel"
+          ]
+        },
+        "institutodiegocastro": {
+          "title": "Site profissional de psicologia",
+          "alt": "Site Tecnologia Solar",
+          "features": [
+            "Tecnologia WordPress",
+            "Landing page moderna",
+            "Formulários ricos em elementos gráficos",
+            "Acessibilidade otimizada",
+            "Site Responsivo",
+            "Auto agendamento conectado ao Google Calendar"
+          ],
+          "images_alt": [
+            "Página inicial Instituto Diego Castro"
+          ]
+        },
+        "sorteiooncb": {
+          "title": "Sistema gerenciável de sorteio",
+          "alt": "Sistema gerenciável de sorteio",
+          "features": [
+            "Tecnologia WordPress",
+            "Sistema de cadastro e login de participantes",
+            "Acessibilidade otimizada",
+            "Painel de gerenciamento de campanhas",
+            "Coleta e exportação de dados",
+            "Site Responsivo"
+          ],
+          "images_alt": [
+            "Página inicial sorteio",
+            "Seção de preços",
+            "Trajetória profissional",
+            "Formulário de contato",
+            "Painel de gerenciamento"
+          ]
+        },
         "hems": {
           "title": "Site Tecnologia Fotovoltaica",
           "alt": "Site Tecnologia Solar",
@@ -257,6 +305,54 @@
       "want_one": "I like it, I want one!",
       "want_one_whatsapp": "I found one of your projects interesting, I want to get a quote for a similar one!",
       "projects": {
+        "nadasobrenos": {
+          "title": "Accessibility NGO institutional website",
+          "alt": "Accessibility NGO website",
+          "features": [
+            "WordPress technology",
+            "Minimalist landing page",
+            "Optimized accessibility",
+            "Responsive website"
+          ],
+          "images_alt": [
+            "NGO home page",
+            "3 sections of mobile view"
+          ]
+        },
+        "institutodiegocastro": {
+          "title": "Psychology professional website",
+          "alt": "Solar technology website",
+          "features": [
+            "WordPress technology",
+            "Modern landing page",
+            "Rich forms with graphic elements",
+            "Optimized accessibility",
+            "Responsive website",
+            "Automatic scheduling connected to Google Calendar"
+          ],
+          "images_alt": [
+            "Instituto Diego Castro home page"
+          ]
+        },
+        "sorteiooncb": {
+          "title": "Manageable raffle system",
+          "alt": "Manageable raffle system",
+          "features": [
+            "WordPress technology",
+            "Participant registration and login system",
+            "Optimized accessibility",
+            "Campaign management panel",
+            "Data collection and export",
+            "Responsive website"
+          ],
+          "images_alt": [
+            "Raffle home page",
+            "Pricing section",
+            "Professional journey",
+            "Contact form",
+            "Management panel"
+          ]
+        },
         "hems": {
           "title": "Solar Technology Website",
           "alt": "Solar Technology Site",
