@@ -137,12 +137,14 @@ class I18n {
         const attrElements = document.querySelectorAll('[data-i18n-attr]');
         attrElements.forEach(element => {
             const attrMapping = element.getAttribute('data-i18n-attr');
-            const [attrName, key] = attrMapping.split(':');
-            const translation = this.getTranslation(key);
-            
-            if (translation) {
-                element.setAttribute(attrName, translation);
-            }
+            attrMapping.split(';').forEach(mapping => {
+                const [attrName, key] = mapping.split(':').map(value => value.trim());
+                const translation = this.getTranslation(key);
+
+                if (translation) {
+                    element.setAttribute(attrName, translation);
+                }
+            });
         });
 
         // Handle special cases for links with dynamic content
