@@ -82,11 +82,39 @@ section h2 {
   font-size: 1.25rem;
 }
 
+@keyframes googleWorkspaceBlink {
+  0%,
+  100% {
+    opacity: 1;
+    box-shadow: 0 0 0 rgba(255, 255, 255, 0), 0 0 10px rgba(255, 255, 255, 0.18), 0 0 22px rgba(255, 255, 255, 0.1);
+    filter: drop-shadow(0 0 0 rgba(255, 255, 255, 0));
+  }
+
+  50% {
+    opacity: 0.96;
+    box-shadow: 0 0 0 rgba(255, 255, 255, 0), 0 0 18px rgba(255, 255, 255, 0.42), 0 0 34px rgba(255, 255, 255, 0.2);
+    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.4));
+  }
+}
+
 .btn-social {
   width: 3.25rem;
   height: 3.25rem;
   font-size: 1.25rem;
   line-height: 2rem;
+}
+
+.google-workspace-badge {
+  position: relative;
+  animation: googleWorkspaceBlink 2.3s ease-in-out infinite;
+  transition: box-shadow 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
+}
+
+.google-workspace-badge:hover,
+.google-workspace-badge:focus,
+.google-workspace-badge:active {
+  transform: translateY(-1px);
+  box-shadow: 0 0 0 rgba(255, 255, 255, 0), 0 0 16px rgba(255, 255, 255, 0.45), 0 0 32px rgba(255, 255, 255, 0.22);
 }
 
 .scroll-to-top {
